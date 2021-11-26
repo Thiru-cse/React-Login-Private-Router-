@@ -8,7 +8,6 @@ import PageNotFound from "./PageNotFound";
 import Post from "./Post";
 
 function Routes () {
-
     return (
         <Switch>
             <Route path="/" exact>

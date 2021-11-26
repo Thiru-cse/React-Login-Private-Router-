@@ -4,7 +4,6 @@ import './App.css';
 
 function App() {
   const isLoggedIn = localStorage.getItem("isLoggedIn");
-
   const logout = () => {
     localStorage.removeItem("isLoggedIn");
     window.location.reload();
